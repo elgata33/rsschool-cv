@@ -13,6 +13,7 @@
 * CSS
 * JavaScript
 * Git
+* NodeJS
 
 ## Code
 ```
