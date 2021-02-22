@@ -1,0 +1,126 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Variables */
+:root {
+  --color-black: #1c1c1c;
+  --color-beige: #d8c3a5;
+  --color-red: #e85a4f;
+  --color-white: #eefbfb;
+}
+
+/* Base */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-beige);
+  color: var(--color-black);
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+
+.container {
+  border: 5px solid var(--color-black);
+  max-width: 900px;
+  margin: auto;
+  background: var(--color-white);
+  border-radius: 30px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+/* Lists */
+.list__item{
+  padding-bottom: 10px;
+}
+
+.list__link {
+  color: var(--color-black);
+  transition: color .1s;
+}
+
+.list__link:hover {
+  color: var(--color-red);
+}
+
+.list__icon {
+  font-size: 25px;
+  vertical-align: middle;
+  padding-right: 10px;
+  color: var(--color-red);
+}
+
+/* Aside */
+.side {
+  width: 300px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side__avatar {
+  width: 150px;
+  border-radius: 10%;
+  border: 2px solid var(--color-black);
+  margin-bottom: 30px;
+}
+
+.side__contact, .side__skill {
+  margin-bottom: 30px;
+}
