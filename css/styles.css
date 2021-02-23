@@ -4,7 +4,7 @@
 /* Variables */
 :root {
   --color-black: #1c1c1c;
-  --color-beige: #d8c3a5;
+  --color-olive: #A3BCB6;
   --color-red: #e85a4f;
   --color-white: #eefbfb;
 }
@@ -20,7 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: var(--color-beige);
+  background-color: var(--color-olive);
   color: var(--color-black);
   font-size: 15px;
 }
@@ -107,7 +107,7 @@ img {
   text-align: center;
   padding: 20px 0;
   margin: 10px 30px;
-  border: 2px solid var(--color-beige);
+  border: 2px solid var(--color-olive);
 }
 
 /* Lists */
@@ -141,7 +141,7 @@ img {
 .aside__avatar {
   width: 150px;
   border-radius: 3px;
-  border: 2px solid var(--color-beige);
+  border: 2px solid var(--color-olive);
   margin-bottom: 30px;
 }
 
