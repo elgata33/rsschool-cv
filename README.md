@@ -1,2 +1,2 @@
 # rsschool-cv
-[Markdown CV](https://elgata33.github.io/rsschool-cv/cv)
+[CV](https://elgata33.github.io/rsschool-cv)
