@@ -66,9 +66,9 @@ img {
 
 /* Layout */
 .container {
-  border: 5px solid var(--color-black);
+  border: 3px solid var(--color-black);
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
   background: var(--color-white);
   border-radius: 5px;
   height: 100vh;
@@ -140,7 +140,7 @@ img {
 
 .aside__avatar {
   width: 150px;
-  border-radius: 10%;
+  border-radius: 3px;
   border: 2px solid var(--color-beige);
   margin-bottom: 30px;
 }
