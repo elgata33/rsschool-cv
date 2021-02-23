@@ -52,16 +52,17 @@ h3 {
 
 p {
   margin: 0;
+  line-height: 23px;
 }
 
 a {
   text-decoration: none;
+  color: var(--color-red);
 }
 
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 img {
@@ -76,13 +77,22 @@ img {
   max-width: 900px;
   margin: auto;
   background: var(--color-white);
-  border-radius: 30px;
+  border-radius: 5px;
+  height: 100vh;
+}
+
+.section-container {
+  display: inline-block;
+  width: 590px;
+  padding: 15px 30px;
 }
 
 /* Header */
 .header {
   text-align: center;
-  padding: 20px 50px;
+  padding: 20px 0;
+  margin: 10px 30px;
+  border: 2px solid var(--color-beige);
 }
 
 /* Lists */
@@ -91,12 +101,11 @@ img {
 }
 
 .list__link {
-  color: var(--color-black);
   transition: color .1s;
 }
 
 .list__link:hover {
-  color: var(--color-red);
+
 }
 
 .list__icon {
@@ -106,21 +115,35 @@ img {
   color: var(--color-red);
 }
 
+.list-styled {
+  list-style-position: inside;
+}
+
 /* Aside */
-.side {
+.aside {
   width: 300px;
   padding: 15px 30px;
-  display: flex;
   flex-direction: column;
+  float: left;
 }
 
-.side__avatar {
+.aside ul {
+  list-style: none;
+}
+
+.aside__avatar {
   width: 150px;
   border-radius: 10%;
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-beige);
   margin-bottom: 30px;
 }
 
-.side__contact, .side__skill {
+.aside__contact, .aside__skill {
   margin-bottom: 30px;
+}
+
+/* Projects */
+
+.project__description{
+  margin-bottom: 10px;
 }
